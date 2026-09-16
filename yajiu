@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Yajiu < Brainfuck
+  nxt 'あくしろよ'
+  inc 'やりますねぇ!'
+  prv 'びっくりさせたる!'
+  dec 'いなりが入ってないやん'
+  opn 'すいません許してください!何でもしますから!'
+  cls 'ん?今何でもするって言ったよね?'
+  put '見たけりゃ見せてやるよ'
+  get 'ンアッー!'
+end
+
+puts Yajiu.new.fuck(ARGF.read)
+
